@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonali Bera | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="home.css"/>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="projects.css">
+  <link rel="stylesheet" href="contact.css">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <div class="brand-info">
+        <img src="pic.png" alt="Sonali Bera">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="menu-area">
+        <input type="checkbox" name="menu" id="menu-toggle" hidden/>
+        <label for="menu-toggle" class="menu-icon">
+          <i class="ph ph-list"></i>
+        </label>
+        <label for="menu-toggle" id="overlay"></label>
+        <nav>
+          <a href="#" style="--i:1" data-tab="home" class="navlink active">Home</a>
+          <a href="#" style="--i:2" data-tab="about" class="navlink">About</a>
+          <a href="#" style="--i:3" data-tab="projects" class="navlink">Projects</a>
+          <a href="#" style="--i:4" data-tab="contact" class="navlink">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ══ HOME ══ -->
+    <section id="home" class="content active">
+      <div class="details">
+        <h2><span>Sonali</span> Bera</h2>
+        <h3>I'm <span id="typing-span"></span></h3>
+        <p>A proactive learner and B.Tech student in Electrical &amp; Electronics Engineering at Silicon University, Bhubaneswar. I have a strong interest in IoT, embedded systems, Android development, and software development — always eager to build things that matter.</p>
+        <div class="bottom">
+          <a href="Sonali_Bera.pdf" download>
+            <button class="btn">Download Resume</button>
+          </a>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/sonali-bera-389485284/" target="_blank" rel="noopener" title="LinkedIn">
+              <i class="ph ph-linkedin-logo"></i>
+            </a>
+            <a href="https://github.com/SONALI619" target="_blank" rel="noopener" title="GitHub">
+              <i class="ph ph-github-logo"></i>
+            </a>
+            <a href="mailto:sonalibera366@gmail.com" title="Email">
+              <i class="ph ph-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="myphoto.jpg" alt="Sonali Bera" title="Sonali Bera" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- ══ ABOUT ══ -->
+    <section id="about" class="content">
+      <div class="about-grid">
+        <div class="sidebar">
+          <h3>Why Hire Me?</h3>
+          <p>I bring a rare combination of hardware intuition and software skills — from designing IoT circuits to building Android apps and deploying digital campaigns. I lead, communicate, and solve problems effectively.</p>
+          <div class="tabs">
+            <span data-section="journey" class="tab active">Experience</span>
+            <span data-section="education" class="tab">Education</span>
+            <span data-section="skills" class="tab">Skills</span>
+            <span data-section="about-me" class="tab">About Me</span>
+          </div>
+        </div>
+
+        <div class="tab-panels">
+
+          <!-- EXPERIENCE / JOURNEY -->
+          <div id="journey" class="tab-content active">
+            <h2>Work <span>Experience</span></h2>
+            <p>Hands-on internships across Android development, research, and digital marketing.</p>
+            <div class="experience-list">
+              <div class="experience-box">
+                <h4>Jun 2025 – Aug 2025</h4>
+                <h3>Android Developer Intern</h3>
+                <div class="company-name"><span></span><p>Ingenious Tech World</p></div>
+                <p>Developed Android UI components using Kotlin and Jetpack Compose. Improved application performance and user experience across the product.</p>
+              </div>
+              <div class="experience-box">
+                <h4>Sep 2024 – Dec 2024</h4>
+                <h3>Research &amp; Promotion Intern</h3>
+                <div class="company-name"><span></span><p>EvePaper</p></div>
+                <p>Conducted research on digital engagement strategies and contributed to increasing user interaction through targeted outreach initiatives.</p>
+              </div>
+              <div class="experience-box">
+                <h4>Jun 2024 – Jul 2024</h4>
+                <h3>Digital Marketing Intern</h3>
+                <div class="company-name"><span></span><p>Syllogistek Pvt Ltd</p></div>
+                <p>Performed SEO optimization and keyword research to improve content visibility. Analyzed campaign performance metrics and contributed to engagement improvement strategies.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- EDUCATION -->
+          <div id="education" class="tab-content">
+            <h2>My <span>Education</span></h2>
+            <p>A strong academic foundation in engineering, science, and mathematics.</p>
+            <div class="experience-list">
+              <div class="experience-box">
+                <h4>2023 – Present</h4>
+                <h3>B.Tech — Electrical &amp; Electronics Engineering</h3>
+                <div class="company-name"><span></span><p>Silicon University, Bhubaneswar</p></div>
+                <p>CGPA: 8.53 | Key Subjects: Electrical Machines, Power Systems, Power Electronics, Control Systems, Circuit &amp; Signals.</p>
+              </div>
+              <div class="experience-box">
+                <h4>2021 – 2023</h4>
+                <h3>Senior Secondary — CBSE (Science)</h3>
+                <div class="company-name"><span></span><p>Sant Nandlal Smriti Vidya Mandir, Ghatsila</p></div>
+                <p>Scored 90.8% with Physics, Chemistry, and Mathematics. Built a strong analytical foundation.</p>
+              </div>
+              <div class="experience-box">
+                <h4>2019 – 2021</h4>
+                <h3>Secondary — CBSE</h3>
+                <div class="company-name"><span></span><p>Sant Nandlal Smriti Vidya Mandir, Ghatsila</p></div>
+                <p>Scored 93% — consistently strong academic performer from early years.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- SKILLS -->
+          <div id="skills" class="tab-content">
+            <h2>My <span>Skills</span></h2>
+            <p>A versatile toolkit spanning software, hardware, and soft skills.</p>
+            <div class="skills-grid">
+              <div class="skill-category">
+                <h4>Languages</h4>
+                <div class="skill-tags">
+                  <span>Python</span><span>C</span><span>C++</span><span>Java</span><span>Kotlin</span><span>JavaScript</span>
+                </div>
+              </div>
+              <div class="skill-category">
+                <h4>Web</h4>
+                <div class="skill-tags">
+                  <span>HTML</span><span>CSS</span><span>Responsive Design</span>
+                </div>
+              </div>
+              <div class="skill-category">
+                <h4>Tools &amp; Technologies</h4>
+                <div class="skill-tags">
+                  <span>Git</span><span>GitHub</span><span>Android Studio</span><span>MySQL</span><span>MATLAB</span><span>Linux</span><span>MS Excel</span>
+                </div>
+              </div>
+              <div class="skill-category">
+                <h4>Hardware / IoT</h4>
+                <div class="skill-tags">
+                  <span>Arduino</span><span>ESP8266</span><span>ESP32</span><span>Sensors</span><span>Circuit Design</span>
+                </div>
+              </div>
+              <div class="skill-category">
+                <h4>Soft Skills</h4>
+                <div class="skill-tags">
+                  <span>Communication</span><span>Leadership</span><span>Teamwork</span><span>Problem Solving</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ABOUT ME -->
+          <div id="about-me" class="tab-content">
+            <h2>About <span>Me</span></h2>
+            <p>Engineer. Developer. Creator. I love building things — both in code and in circuits.</p>
+            <div class="about-me-content">
+              <div class="about-me-card">
+                <i class="ph ph-map-pin"></i>
+                <div><h4>Location</h4><p>Bhubaneswar, Odisha</p></div>
+              </div>
+              <div class="about-me-card">
+                <i class="ph ph-graduation-cap"></i>
+                <div><h4>Degree</h4><p>B.Tech EEE — Silicon University</p></div>
+              </div>
+              <div class="about-me-card">
+                <i class="ph ph-star"></i>
+                <div><h4>CGPA</h4><p>8.53</p></div>
+              </div>
+              <div class="about-me-card">
+                <i class="ph ph-heart"></i>
+                <div><h4>Interests</h4><p>IoT, Android Dev, Embedded Systems</p></div>
+              </div>
+              <div class="about-me-card">
+                <i class="ph ph-envelope"></i>
+                <div><h4>Email</h4><p>sonalibera366@gmail.com</p></div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- end .tab-panels -->
+      </div><!-- end .about-grid -->
+    </section>
+
+    <!-- ══ PROJECTS ══ -->
+    <section id="projects" class="content">
+      <div class="section-header">
+        <h2>My <span>Projects</span></h2>
+        <p>A selection of hardware, IoT, mobile, and software projects I've built.</p>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon"><i class="ph ph-thermometer"></i></div>
+          <h3>Temperature Alert System</h3>
+          <p>Designed a temperature monitoring system for safety applications using a thermocouple and Arduino that triggers a buzzer alert when temperature exceeds a predefined threshold. Demonstrated real-time sensing and safety indication.</p>
+          <div class="project-tags">
+            <span>Arduino</span><span>Thermocouple</span><span>Analog Circuit</span><span>Hardware</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/SONALI619" target="_blank" rel="noopener"><i class="ph ph-github-logo"></i> GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon"><i class="ph ph-wifi-high"></i></div>
+          <h3>IoT Smart Examination Bell <span class="badge">In Progress</span></h3>
+          <p>Web-based control system where an ESP8266/ESP32 microcontroller communicates with a website to schedule and trigger bell operations. Enables real-time remote control via Wi-Fi, reducing manual intervention.</p>
+          <div class="project-tags">
+            <span>ESP8266/ESP32</span><span>Embedded C</span><span>HTML/CSS/JS</span><span>Wi-Fi</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/SONALI619" target="_blank" rel="noopener"><i class="ph ph-github-logo"></i> GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon"><i class="ph ph-device-mobile"></i></div>
+          <h3>SIT Cinemax App</h3>
+          <p>Built an Android application for movie ticket booking with dynamic UI and real-time updates using Kotlin and Jetpack Compose. Implemented user-friendly navigation and optimized app performance.</p>
+          <div class="project-tags">
+            <span>Kotlin</span><span>Java</span><span>Jetpack Compose</span><span>Android</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/SONALI619" target="_blank" rel="noopener"><i class="ph ph-github-logo"></i> GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon"><i class="ph ph-storefront"></i></div>
+          <h3>Supermarket Management System</h3>
+          <p>Developed a billing and inventory system in Python simulating real-world supermarket operations — covering stock management, billing, and sales reporting.</p>
+          <div class="project-tags">
+            <span>Python</span><span>CLI</span><span>Inventory</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/SONALI619" target="_blank" rel="noopener"><i class="ph ph-github-logo"></i> GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-icon"><i class="ph ph-globe"></i></div>
+          <h3>Personal Portfolio Website</h3>
+          <p>Created this responsive personal portfolio using HTML, CSS, and JavaScript to showcase projects, skills, and technical experience with smooth animations and a clean layout.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/SONALI619" target="_blank" rel="noopener"><i class="ph ph-github-logo"></i> GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══ CONTACT ══ -->
+    <section id="contact" class="content">
+      <div class="section-header">
+        <h2>Get In <span>Touch</span></h2>
+        <p>Have a project in mind or just want to say hi? I'd love to hear from you.</p>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-card">
+            <i class="ph ph-envelope-simple"></i>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:sonalibera366@gmail.com">sonalibera366@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="ph ph-linkedin-logo"></i>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://www.linkedin.com/in/sonali-bera-389485284/" target="_blank" rel="noopener">linkedin.com/in/sonali-bera</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="ph ph-github-logo"></i>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/SONALI619" target="_blank" rel="noopener">github.com/SONALI619</a>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="ph ph-map-pin"></i>
+            <div>
+              <h4>Location</h4>
+              <p>Bhubaneswar, Odisha, India</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="femail">Your Email</label>
+            <input type="email" id="femail" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" placeholder="Project Inquiry" required />
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+          <p id="form-success" class="form-success" style="display:none;">✓ Message sent! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </section>
+
+  </div><!-- end .main-container -->
+
+  <script src="script.js"></script>
+  <script src="about.js"></script>
+</body>
+</html>
